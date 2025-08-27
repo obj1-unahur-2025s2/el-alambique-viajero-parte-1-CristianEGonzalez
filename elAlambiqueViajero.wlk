@@ -1,9 +1,12 @@
-object tito{
-  var salud = 100
+object luke{
+  var cantLugaresVisitados = 0
+  var ultimoRecuerdo = null
 
-  method fumar(cantidad){
-    salud -= cantidad * 3
-
-    // salud = salud - (cantidad * 3)
+  method viajar(lugar){
+    cantLugaresVisitados += 1
+    lugar.recuerdo()
   }
 }
+
+
+
